@@ -1,9 +1,12 @@
 import re
 import sys
+import os
 import logging
 import unicodedata
 from copy import copy
 from collections import defaultdict, deque, namedtuple
+
+sys.path.append(os.path.dirname(__file__))
 from wcwidth import wcwidth, wcswidth
 from functools import lru_cache
 
