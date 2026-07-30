@@ -15,6 +15,8 @@ All notable changes to this project will be documented in this file
   <!-- + now removed features -->
 <!-- - 🔒 __Security__ -->
   <!-- + vulnerabilities -->
+- Δ __Changed__
+  + dep: update winpty to 3.0.5 to work with plugin host Python 3.14
 
 [0.0.0]: https://github.com/eugenesvk/Terminus/releases/tag/0.0.0
 ## [0.0.0]
